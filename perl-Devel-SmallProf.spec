@@ -4,12 +4,12 @@
 Summary:	Devel::SmallProf perl module
 Summary(pl):	Modu³ perla Devel::SmallProf
 Name:		perl-Devel-SmallProf
-Version:	0.9
+Version:	1.11
 Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c9e50df36a3ad48fe01071813768d975
+# Source0-md5:	e0c690c96caf7b78273609caff883ffc
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Time-HiRes
