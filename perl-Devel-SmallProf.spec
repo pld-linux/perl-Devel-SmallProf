@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	SmallProf
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel-SmallProf perl module
 Summary(pl):	Modu³ perla Devel-SmallProf
 Name:		perl-Devel-SmallProf
 Version:	0.9
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Devel-SmallProf - per-line Perl profiler.
 Modu³ perla Devel-SmallProf.
 
 %prep
-%setup -q -n Devel-SmallProf-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
