@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	SmallProf
-Summary:	Devel::SmallProf perl module
-Summary(pl):	Modu³ perla Devel::SmallProf
+Summary:	Devel::SmallProf - per-line Perl profiler
+Summary(pl):	Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
 Version:	1.15
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c69cc531a507a29af945804cb4e6145c
@@ -17,10 +18,17 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel::SmallProf - per-line Perl profiler.
+The Devel::SmallProf profiler is focused on the time taken for a
+program run on a line-by-line basis.  It is intended to be as "small"
+in terms of impact on the speed and memory usage of the profiled
+program as possible and also in terms of being simple to use.
 
 %description -l pl
-Modu³ perla Devel::SmallProf.
+System wspomagania programowania w Perlu Devel::SmallProf jest
+zogniskowany na ilo¶æ czasu, potrzebnego na wykonanie poszczególnych
+wierszy programu. Powinien on byæ na tyle ma³y, aby, o ile to mo¿liwe,
+nie wp³ywa³ na szybko¶æ i zu¿ycie pamiêci analizowanego programu.
+Powinien byæ te¿ prosty w u¿yciu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
