@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Devel
-%define	pnam	SmallProf
+%define		pdir	Devel
+%define		pnam	SmallProf
 Summary:	Devel::SmallProf - per-line Perl profiler
 Summary(pl):	Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
