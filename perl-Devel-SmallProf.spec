@@ -2,9 +2,9 @@
 Summary:	Devel-SmallProf perl module
 Summary(pl):	Modu³ perla Devel-SmallProf
 Name:		perl-Devel-SmallProf
-Version:	0.5
-Release:	3
-Copyright:	GPL
+Version:	0.7
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Devel/Devel-SmallProf-%{version}.tar.gz
