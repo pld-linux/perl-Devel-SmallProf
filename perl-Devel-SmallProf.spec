@@ -9,7 +9,7 @@ Summary:	Devel::SmallProf - per-line Perl profiler
 Summary(pl):	Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
 Version:	1.15
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -17,7 +17,6 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	c69cc531a507a29af945804cb4e6145c
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	perl-Time-HiRes
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
