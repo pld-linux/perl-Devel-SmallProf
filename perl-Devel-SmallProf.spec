@@ -4,12 +4,12 @@
 Summary:	Devel::SmallProf perl module
 Summary(pl):	Modu³ perla Devel::SmallProf
 Name:		perl-Devel-SmallProf
-Version:	1.11
-Release:	7
+Version:	1.15
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e0c690c96caf7b78273609caff883ffc
+# Source0-md5:	c69cc531a507a29af945804cb4e6145c
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Time-HiRes
@@ -41,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
-%{perl_vendorlib}/Devel/SmallProf.pm
+%{perl_vendorlib}/%{pdir}/%{pnam}.pm
 %{_mandir}/man3/*
