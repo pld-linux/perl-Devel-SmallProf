@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	SmallProf
-Summary:	Devel-SmallProf perl module
-Summary(pl):	Modu³ perla Devel-SmallProf
+Summary:	Devel::SmallProf perl module
+Summary(pl):	Modu³ perla Devel::SmallProf
 Name:		perl-Devel-SmallProf
 Version:	0.9
 Release:	6
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel-SmallProf - per-line Perl profiler.
+Devel::SmallProf - per-line Perl profiler.
 
 %description -l pl
-Modu³ perla Devel-SmallProf.
+Modu³ perla Devel::SmallProf.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
