@@ -6,7 +6,7 @@
 %define		pdir	Devel
 %define		pnam	SmallProf
 Summary:	Devel::SmallProf - per-line Perl profiler
-Summary(pl):	Devel::SmallProf - system wspomagania programowania w Perlu
+Summary(pl.UTF-8):   Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
 Version:	1.15
 Release:	2
@@ -26,12 +26,12 @@ program run on a line-by-line basis.  It is intended to be as "small"
 in terms of impact on the speed and memory usage of the profiled
 program as possible and also in terms of being simple to use.
 
-%description -l pl
+%description -l pl.UTF-8
 System wspomagania programowania w Perlu Devel::SmallProf jest
-zogniskowany na ilo¶æ czasu, potrzebnego na wykonanie poszczególnych
-wierszy programu. Powinien on byæ na tyle ma³y, aby, o ile to mo¿liwe,
-nie wp³ywa³ na szybko¶æ i zu¿ycie pamiêci analizowanego programu.
-Powinien byæ te¿ prosty w u¿yciu.
+zogniskowany na iloÅ›Ä‡ czasu, potrzebnego na wykonanie poszczegÃ³lnych
+wierszy programu. Powinien on byÄ‡ na tyle maÅ‚y, aby, o ile to moÅ¼liwe,
+nie wpÅ‚ywaÅ‚ na szybkoÅ›Ä‡ i zuÅ¼ycie pamiÄ™ci analizowanego programu.
+Powinien byÄ‡ teÅ¼ prosty w uÅ¼yciu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
