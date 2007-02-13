@@ -6,7 +6,7 @@
 %define		pdir	Devel
 %define		pnam	SmallProf
 Summary:	Devel::SmallProf - per-line Perl profiler
-Summary(pl.UTF-8):   Devel::SmallProf - system wspomagania programowania w Perlu
+Summary(pl.UTF-8):	Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
 Version:	1.15
 Release:	2
