@@ -9,7 +9,7 @@ Summary:	Devel::SmallProf - per-line Perl profiler
 Summary(pl.UTF-8):	Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
 Version:	1.15
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
