@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Devel
 %define		pnam	SmallProf
+%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::SmallProf - per-line Perl profiler
 Summary(pl.UTF-8):	Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
@@ -15,14 +15,15 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	498704ed1b888fc62b0c7092f8b590f5
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Devel-SmallProf/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The Devel::SmallProf profiler is focused on the time taken for a
-program run on a line-by-line basis.  It is intended to be as "small"
+program run on a line-by-line basis. It is intended to be as "small"
 in terms of impact on the speed and memory usage of the profiled
 program as possible and also in terms of being simple to use.
 
