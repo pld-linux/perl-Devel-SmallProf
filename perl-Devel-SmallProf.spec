@@ -4,7 +4,6 @@
 
 %define		pdir	Devel
 %define		pnam	SmallProf
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::SmallProf - per-line Perl profiler
 Summary(pl.UTF-8):	Devel::SmallProf - system wspomagania programowania w Perlu
 Name:		perl-Devel-SmallProf
